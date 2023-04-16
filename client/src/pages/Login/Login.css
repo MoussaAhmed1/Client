@@ -1,0 +1,17 @@
+.login .img-wrapper{
+    width: 80px;
+    border-radius: 50%;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .users .user:is(:hover,.active){
+    filter: drop-shadow(0 0 .5em #646cffaa);
+    cursor: pointer;
+}
+
+.login .form-group .input{
+    transition: all ease .5;
+}

@@ -1,0 +1,54 @@
+/* Varible */
+
+:root {
+  --main-bg-color: #003865;
+  --main-color: #3CCF4E;
+  --main-color-alt: #D4F6CC;
+  --main-bg-color: #2B2B2B;
+  --main-transition-duration: 0.5s;
+  --textColor:#777;
+}
+
+
+
+/* Rules */
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  background-attachment: fixed;
+  background-color: var(--main-bg-color);
+}
+a {
+  text-decoration: none;
+  color: #e2dddd !important;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button{
+cursor: pointer;
+}
+
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
